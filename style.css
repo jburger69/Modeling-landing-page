@@ -6,12 +6,12 @@ body {
 }
 
 
-.landing-page {
+/* .landing-page {
     /* position: relative;
     width: 1920px;
     height: 1080px; */
     /* background: linear-gradient(180deg, #430760 0%, rgba(86, 21, 38, 0.1875) 90.62%, rgba(90, 24, 24, 0) 100%); */
-}
+/* } */ 
 
 
 /* Landing title - Elite model management */
@@ -130,4 +130,28 @@ a {
     line-height: 59px;
 
     color: #FFFFFF;
+}
+
+/* Button for middle page */
+
+.middle-button {
+    margin: 20px;
+    position: absolute;
+    width: 260px;
+    height: 80px;
+    left: 961px;
+    top: 554px;
+    font-family: Peddana;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 78px;
+    color: #FFFFFF;
+
+    background: #9A6CAF;
+    border-radius: 10px;
+}
+
+.middle-button:hover {
+    background-color: rgb(75, 63, 104);
 }
