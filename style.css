@@ -1,14 +1,20 @@
 body {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
     background: linear-gradient(180deg, #430760 0%, rgba(86, 21, 38, 0.1875) 90.62%, rgba(90, 24, 24, 0) 100%);
 }
 
 
 .landing-page {
-    position: relative;
+    /* position: relative;
     width: 1920px;
-    height: 1080px;
+    height: 1080px; */
     /* background: linear-gradient(180deg, #430760 0%, rgba(86, 21, 38, 0.1875) 90.62%, rgba(90, 24, 24, 0) 100%); */
 }
+
+
+/* Landing title - Elite model management */
 
 .landing-title {
     position: absolute;
@@ -21,10 +27,53 @@ body {
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
+    /* line-height: 78px; */
+
+    color: #FFFFFF;
+}
+
+
+/* Link top-right discover */
+
+.landing-link1 {
+    position: absolute;
+    width: 154px;
+    height: 64px;
+    left: 1430px;
+    top: 40px;
+
+    font-family: Peddana;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
     line-height: 78px;
 
     color: #FFFFFF;
 }
+/* Link top-right signup */
+
+.landing-link2 {
+    position: absolute;
+    width: 154px;
+    height: 64px;
+    left: 1644px;
+    top: 40px;
+
+    font-family: Peddana;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 78px;
+
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Logo */
 
 .logo-image {
     position: absolute;
@@ -34,10 +83,31 @@ body {
     top: -15px;
 }
 
+
+/* photo-fashion */
+
 .model-picture {
     position: absolute;
     width: 661px;
     height: 812px;
     left: 74px;
     top: 268px;
+}
+
+/* Have what it takes? */
+
+.middle-title {
+    position: absolute;
+    width: 874px;
+    height: 265px;
+    left: 960px;
+    top: 323px;
+
+    font-family: Handlee;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 85px;
+
+    color: #FFFFFF;
 }
