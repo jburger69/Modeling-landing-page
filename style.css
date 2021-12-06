@@ -97,6 +97,7 @@ a {
 /* Have what it takes? */
 
 .middle-title {
+    margin: auto;
     position: absolute;
     width: 874px;
     height: 265px;
@@ -108,6 +109,25 @@ a {
     font-weight: normal;
     font-size: 64px;
     line-height: 85px;
+
+    color: #FFFFFF;
+}
+
+/* “Modeling is not just beauty and smile, it takes boldness and style.” */
+
+.middle-quote {
+    margin: auto;
+    position: absolute;
+    width: 874px;
+    height: 266px;
+    left: 960px;
+    top: 422px;
+
+    font-family: Peddana;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 59px;
 
     color: #FFFFFF;
 }
